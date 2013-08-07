@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.images.viewer.feature"
       label="Image Viewer Feature"
-      version="1.0.1"
+      version="0.1.0.qualifier"
       provider-name="Wayne Beaton">
 
    <description url="http://www.eclipse.org/evangelism/samples/imageviewer">
@@ -216,10 +216,6 @@ Each party waives its rights to a jury trial in any resulting
 litigation.
    </license>
 
-   <url>
-      <update label="Eclipse Evanglism Samples" url="http://www.eclipse.org/evangelism/samples/updates"/>
-   </url>
-
    <requires>
       <import plugin="org.eclipse.ui" version="3.2.0" match="compatible"/>
       <import plugin="org.eclipse.core.runtime" version="3.2.0" match="compatible"/>
@@ -230,14 +226,14 @@ litigation.
          id="org.eclipse.images.viewer"
          download-size="10"
          install-size="10"
-         version="1.0.1"
+         version="0.1.0"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.images.viewer.files"
          download-size="10"
          install-size="10"
-         version="1.0.0"
+         version="0.1.0"
          unpack="false"/>
 
 </feature>
